@@ -1,8 +1,8 @@
 
 import Home from "../src/Pages/Home"
 
-import MovieDetails from '../../../stage 2/assignment2/src/Pages/MovieDetails';
-import MovieSearch from '../../../stage 2/assignment2/src/Pages/MovieSearch'
+import MovieDetails from "../src/Pages/MovieDetails";
+import MovieSearch from "../src/Pages/MovieSearch"
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
