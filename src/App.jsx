@@ -1,4 +1,5 @@
-import Home from '../../../stage 2/assignment2/src/Pages/Home';
+
+import Home from "../src/Pages/Home"
 
 import MovieDetails from '../../../stage 2/assignment2/src/Pages/MovieDetails';
 import MovieSearch from '../../../stage 2/assignment2/src/Pages/MovieSearch'
@@ -10,7 +11,7 @@ function App() {
     <div className="App-container">
     <Router>                          
       <Routes>
-
+            <Home />
               
               <Route path='/' element={<Home/>} />
               <Route path="/search" element={<MovieSearch />} />     
